@@ -1,26 +1,28 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Greeting from './components/Greeting';
+import Header from './components/Header';
+import Home from './components/Home';
 import './App.css';
-import React from 'react'
-import { Provider } from 'react-redux';
-import {  BrowserRouter, Routes, Route } from 'react-router-dom'
-import Greeting from './Greeting';
-import Header from './Header';
-import Home from './Home';
-import store from '../redux/ConfigureStore';
 
-function App() {
-  return (
-    <div className="App">
-    <Provider store={store}> 
-      <BrowserRouter>
-      <Header />
-        <Routes>
-          <Route exact path="/" element={ (<Home />) } />
-          <Route exact path="/greeting" element={ (<Greeting />) } />
-        </Routes>
-      </BrowserRouter>
-    </Provider>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Header />
+    <Routes>
+      <Route
+        path="/"
+        element={(
+          <Home />
+        )}
+      />
+      <Route
+        path="/greeting"
+        element={(
+          <Greeting />
+        )}
+      />
+    </Routes>
+  </>
+);
 
 export default App;
