@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import greetingsReducer from './greetings/greetings';
 
 const reducer = combineReducers({
-  greeting: greetingsReducer,
+   greetingsReducer,
 });
 
 const store = createStore(
