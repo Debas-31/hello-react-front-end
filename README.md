@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Hello React Front End
+## Hello Rails Back End
 
 > >A simple application that contains the setup of rails and react in one application. The App loads a random greeting message from the database when the page loads.
 
