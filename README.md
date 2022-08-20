@@ -2,7 +2,7 @@
 
 ## Hello Rails Back End
 
-> >A simple application that contains the setup of rails and react in one application. The App loads a random greeting message from the database when the page loads.
+>A simple application that contains the setup of rails and react in one application. The App loads a random greeting message from the database when the page loads.
 
 ## Link to Front-end
 - [hello-rails-back-end](https://github.com/Debas-31/hello-rails-back-end)
